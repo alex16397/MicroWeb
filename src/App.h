@@ -68,6 +68,8 @@ public:
 
 	void StopLoad();
 
+	void ShowWelcomePage();
+
 	void ShowErrorPage(const char* message);
 
 	Page page;

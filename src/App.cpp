@@ -56,6 +56,8 @@ void App::Run(int argc, char* argv[])
 		}
 	}
 
+	if (!requestedNewPage) ShowWelcomePage();
+
 	while (running)
 	{
 		Platform::Update();
@@ -272,6 +274,37 @@ void App::ShowErrorPage(const char* message)
 	//ui.UpdateAddressBar(page.pageURL);
 
 	//renderer.DrawAddress(page.pageURL.url);
+}
+
+void App::ShowWelcomePage()
+{
+	ResetPage();
+
+	page.BreakLine(2);
+	page.PushStyle(WidgetStyle(FontStyle::Bold, 2));
+	page.AppendText("Welcome to MicroWeb!");
+	page.PopStyle();
+	page.BreakLine(3);
+
+	page.PushStyle(WidgetStyle(FontStyle::Bold, 1));
+	page.AppendText("Keyboard shortcuts:");
+	page.PopStyle();
+	page.BreakLine();
+
+	page.AppendText("F6 / Ctrl+L : Select address bar");
+	page.BreakLine();
+	page.AppendText("Tab / Shift+Tab : Cycle through selectable page elements");
+	page.BreakLine();
+	page.AppendText("Enter : Follow link / press button");
+	page.BreakLine();
+	page.AppendText("Backspace : Back in history");
+	page.BreakLine();
+	page.AppendText("F2 : Invert screen (useful for LCD displays)");
+	page.BreakLine();
+	page.AppendText("Escape : Exit");
+	page.BreakLine();
+
+	page.FinishSection();
 }
 
 static const char* frogFindURL = "http://frogfind.com/read.php?a=";
