@@ -429,7 +429,7 @@ TextEncodingPage ISO_8859_1_Encoding =
 		"^",					//	ˆ	136	&circ;	modifier letter circumflex accent
 		"%",					//	‰	137	&permil;	per mille sign
 		"S",					//	Š	138	&Scaron;	Latin capital letter S with caron
-		"<",					//	‹	139	&lsaquo;	single left-pointing angle quotation mark
+		"&lt;",					//	‹	139	&lsaquo;	single left-pointing angle quotation mark
 		"OE",					//	Œ	140	&OElig;	Latin capital ligature OE
 		"",						//	 	141	 	NOT USED
 		"Z",					//	Ž	142	&Zcaron;	Latin capital letter Z with caron
@@ -445,7 +445,7 @@ TextEncodingPage ISO_8859_1_Encoding =
 		"~",					//	˜	152	&tilde;	small tilde
 		"TM",					//	™	153	&trade;	trade mark sign
 		"s",					//	š	154	&scaron;	Latin small letter s with caron
-		">",					//	›	155	&rsaquo;	single right-pointing angle quotation mark
+		"&gt;",					//	›	155	&rsaquo;	single right-pointing angle quotation mark
 		"oe",					//	œ	156	&oelig;	Latin small ligature oe
 		"",						//	 	157	 	NOT USED
 		"z",					//	ž	158	&zcaron;	Latin small letter z with caron
@@ -461,7 +461,7 @@ TextEncodingPage ISO_8859_1_Encoding =
 		"\"",					//	¨	168	&uml;	diaeresis
 		"(C)",					//	©	169	&copy;	copyright sign
 		"a",					//	ª	170	&ordf;	feminine ordinal indicator
-		"<<",					//	«	171	&laquo;	left-pointing double angle quotation mark
+		"&lt;&lt;",					//	«	171	&laquo;	left-pointing double angle quotation mark
 		"¬",					//	¬	172	&not;	not sign
 		"",						//	�­	173	&shy;	soft hyphen
 		"(R)",					//	®	174	&reg;	registered sign
@@ -477,7 +477,7 @@ TextEncodingPage ISO_8859_1_Encoding =
 		".",					//	¸	184	&cedil;	cedilla
 		"1",					//	¹	185	&sup1;	superscript one
 		"",						//	º	186	&ordm;	masculine ordinal indicator
-		">>",					//	»	187	&raquo;	right-pointing double angle quotation mark
+		"&gt;&gt;",					//	»	187	&raquo;	right-pointing double angle quotation mark
 		"1/4",					//	¼	188	&frac14;	vulgar fraction one quarter
 		"1/2",					//	½	189	&frac12;	vulgar fraction one half
 		"3/4",					//	¾	190	&frac34;	vulgar fraction three quarters
